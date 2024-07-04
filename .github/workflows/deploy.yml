@@ -1,13 +1,22 @@
-   name: Deploy Next.js App to GitHub Pages
+# File: .github/workflows/publish.yml
+name: publish-to-github-pages
+on:
+  push:
+    branches:
+      - main 
 
-   on:
-     push:
-       branches:
-         - main
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-   jobs:
-     build:
-       runs-on: ubuntu-latest
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout 🛎️
