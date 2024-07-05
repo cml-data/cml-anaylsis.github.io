@@ -40,9 +40,39 @@ li {
   background-color: #1D1E20;
 }
 
-.nav-container .logo {
+.nav-profile .profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.nav-profile .logo {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.nav-profile .social-icons {
+  display: flex;
+  justify-content: left;
+  gap: 0 1rem;
+}
+
+.nav-profile .social-icons a {
+  color: #9B9C9D;
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-profile .social-icons a:hover {
+  color: #DADADB;
+}
+
+.nav-profile .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .cta-btn {
@@ -109,7 +139,7 @@ hr {
 /* Hero */
 
 .hero-container {
-  height: 90vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,22 +179,7 @@ hr {
   margin-bottom: 1rem;
 }
 
-.hero-container .social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0 1rem;
-}
 
-.hero-container .social-icons a {
-  color: #9B9C9D;
-  font-size: 1.5rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.hero-container .social-icons a:hover {
-  color: #DADADB;
-}
 
 /* About */
 .about-container {
@@ -291,6 +306,10 @@ hr {
 
 .skills-container .grid-skills .python:hover {
   background-color: #3776AB;
+}
+
+.skills-container .grid-skills .postgres:hover {
+  background-color: aqua;
 }
 
 /* Projects */

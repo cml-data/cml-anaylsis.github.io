@@ -7,12 +7,22 @@ const About = () => {
             <div className="flex-about">
                 <div className="about-text">
                     <p>
-                        As a developer, I have always been passionate about creating elegant and effective solutions to complex problems. I have a strong foundation in software development, with a focus on web technologies such as HTML, CSS, and JavaScript. I enjoy working on both the front-end and back-end of applications, and I am always looking for ways to optimize performance, improve user experience, and ensure the highest level of code quality.
+                        My career path has taken twists and turns.
+                        I graduated with a degree in Computer Systems Engineering,
+                        but my first job was taking care of Sun Solaris systems for the
+                        CAD department at Microchip Technology, where I did everything from
+                        wiring up the network and replacing internal parts to writing automation scripts for various projects.
+                        I learned a lot about Unix, then Linux (as we moved on from Solaris) in this position and this
+                        knowledge has been invaluable as my career moved on.  It translates directly to understanding deployment pipelines
+                        and setting up EC2 servers in AWS.  From there, I moved on to a QA automation position with Blackboard and
+                        learned the good and bad about attempting to automate all of your browser testing.  I have a good understanding
+                        of the strengths and weaknesses of automation frameworks and a deep respect for writing testable code.  The last 10 years
+                        been spent as a full stack developer at NWEA (now HMH).  My development
+                        practice pulls from all of my previous experiences and allows me to quickly troubleshoot issues and solve complex problems.
                     </p>
-                    <p>Throughout my career, I have worked on a wide range of projects, from simple static websites to complex enterprise-level applications. I am experienced in working with a variety of development tools and frameworks, including React, Angular, Vue.js, Node.js, and Laravel. I am always eager to learn and explore new technologies, and I am constantly seeking out opportunities to improve my skills and knowledge.</p>
                 </div>
                 <div className="about-img">
-                    <Image src='/images/about.jpeg' className="profile-img" width={300} height={500} alt="Joe and animal relaxing and having fun" />
+                    <Image src='images/IMG_5277.jpeg' className="profile-img" width={300} height={500} alt="Camping with Lucy" />
                 </div>
             </div>
         </div>

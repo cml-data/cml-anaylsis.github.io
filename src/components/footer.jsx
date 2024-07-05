@@ -4,17 +4,9 @@ const Footer = () => {
             <hr />
             <div className="footer-container">
                 <p>
-                    &copy; {new Date().getFullYear()} Joel's Portfolio
+                    &copy; {new Date().getFullYear()} Christy's Portfolio
                 </p>
                 <div className="social_icons">
-                    <a
-                        href="https://twitter.com/olawanle_joel"
-                        aria-label="Twitter"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i className="fa-brands fa-twitter"></i>
-                    </a>
                     <a
                         href="https://github.com/olawanlejoel"
                         aria-label="GitHub"
@@ -29,7 +21,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <i className="fa-brands fa-linkedin"></i>
+                        <i className="fa-brands fa-linkedin-square"></i>
                     </a>
                 </div>
             </div>
