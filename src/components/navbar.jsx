@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
+
 
 const Navbar = () => {
     return (
@@ -16,7 +16,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <i className="fa fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                 </a>
                 <a
                     href="https://www.linkedin.com/in/cmrlawrence/"
@@ -24,7 +24,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <i className="fa fa-linkedin-square"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                 </a>
                 <a
                     href="https://www.linkedin.com/in/cmrlawrence/"
