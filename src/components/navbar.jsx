@@ -28,11 +28,19 @@ const Navbar = () => {
                 </a>
                 <a
                     href="https://www.linkedin.com/in/cmrlawrence/"
-                    aria-label="LinkedIn"
+                    aria-label="Resume"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <i className="fa fa-file"></i>
+                </a>
+                <a
+                    href="mailto:cmrhine@gmail.com"
+                    aria-label="Email Me"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i className="fa-solid fa-envelope"></i>
                 </a>
             </div>
         </div>
