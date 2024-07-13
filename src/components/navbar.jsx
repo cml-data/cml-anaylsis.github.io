@@ -27,7 +27,7 @@ const Navbar = () => {
                     <i className="fa-brands fa-linkedin"></i>
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/cmrlawrence/"
+                    href="images/resume.pdf"
                     aria-label="Resume"
                     target="_blank"
                     rel="noopener noreferrer"
