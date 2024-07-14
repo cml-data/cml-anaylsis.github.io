@@ -15,10 +15,12 @@ const Projects = () => {
                                 <a href={project.gitHubLink} target="_blank"><i className="fa-brands fa-github"></i></a>
                             </div>
                         </div>
-                        <h3>{project.title}</h3>
-                        <p>{project.description}</p>
+                        <a href={project.gitHubLink} target="_blank">
+                            <h3>{project.title}</h3>
+                            <p>{project.description}</p>
+                        </a>
                     </div>
-                ))
+                    ))
                 }
             </div>
         </div>
