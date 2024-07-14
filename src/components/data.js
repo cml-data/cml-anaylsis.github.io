@@ -3,7 +3,8 @@ export const projectData = [
 		id: 1,
 		title: 'Speed Dating Analysis',
 		description:
-			'Analysis on speed dating dataset.',
+			'Analysis on speed dating dataset.  Group project with \n' +
+			'Noelle Matthews and Haleigh Schwartz',
 		gitHubLink: 'https://github.com/cml-data/505project',
 	},
 	{
@@ -22,9 +23,9 @@ export const projectData = [
 	},
 		{
 		id: 4,
-		title: '???',
+		title: 'Breast Cancer Risk Factors - Analysis with Machine Learning',
 		description:
-			'',
+			'coming soon',
 		gitHubLink: '',
 	},
 ];

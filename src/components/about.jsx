@@ -17,8 +17,11 @@ const About = () => {
                         and setting up EC2 servers in AWS.  From there, I moved on to a QA automation position with Blackboard and
                         learned the good and bad about attempting to automate all of your browser testing.  I have a good understanding
                         of the strengths and weaknesses of automation frameworks and a deep respect for writing testable code.  The last 10 years
-                        been spent as a full stack developer at NWEA (now HMH).  My development
-                        practice pulls from all of my previous experiences and allows me to quickly troubleshoot issues and solve complex problems.
+                        been spent as a full stack developer at NWEA (now HMH), helping develop features for k-12 reading fluency testing platforms
+                        and writing bespoke, teacher and parent-based, data-driven visualizations for our underlying research data.
+                        My strongest aspects as a developer are troubleshooting code-bases that are unfamiliar and designing solutions that are efficient and robust.
+                        In the past year, I have began moving my career toward data and am currently completing a Masters in Data Science.  I love the data-driven
+                        aspect of my work and would like to dig more deeply into datasets to find answers that help people.
                     </p>
                 </div>
                 <div className="about-img">
