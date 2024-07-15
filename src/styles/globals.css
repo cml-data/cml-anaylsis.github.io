@@ -287,6 +287,12 @@ hr {
   border-radius: 5px;
 }
 
+.project-card:hover {
+  border: 4px solid #e6e6e6;
+  padding: 17px;
+  border-radius: 5px;
+}
+
 .project-card .project-header {
   display: flex;
   justify-content: space-between;
@@ -294,8 +300,13 @@ hr {
   margin-bottom: 20px;
 }
 
-.project-card .folder-icon {
-  font-size: 35px;
+.project-card .project-title:hover {
+    text-decoration-line: underline;
+}
+
+.project-card .project-icon {
+  width: 60px;
+  height: 60px;
   color: #FFCC17;
 }
 
